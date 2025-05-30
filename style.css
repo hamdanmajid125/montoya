@@ -564,7 +564,7 @@ Primary use:	Showcase Portfolio
 	.primary-font-title {
 		font-family: 'Neue Machina', sans-serif;
 		font-weight:500;
-		font-size: 16rem;
+		font-size: 12rem;
 	}
 	
 	.big-title {
@@ -2119,12 +2119,12 @@ Primary use:	Showcase Portfolio
 		.fullscreen-menu .flexnav > li > a {
 			font-family: 'Neue Machina', sans-serif;
 			font-weight: 500;
-			font-size: calc(1rem + 8vw);
-  			line-height: calc(1rem + 7.5vw);
+			font-size: calc(1rem + 4vw);
+			line-height: calc(1rem + 7.5vw);
 			padding: 0 50px;
 			-webkit-transition: all .1s ease-in-out 0s;
 			transition: all .1s ease-in-out 0s;
-			text-transform:lowercase;
+			text-transform: uppercase;
 		}
 		
 		.fullscreen-menu .flexnav .touch-button {
