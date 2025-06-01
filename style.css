@@ -3938,7 +3938,82 @@ span.text-uppercase {
 	top: 0;
 }
 
-svg#svg1 {
-
-    
+.svgs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
 }
+
+
+
+svg#svg2 {
+    width: 127px;
+    height: 128px;
+    top: 0;
+    left: 0;
+}
+
+
+svg#svg2 image {
+    width: 100%;
+    height: 100%;
+}
+
+
+svg#svg1{
+    width: 87px;
+    height: 97px;
+    top: 0;
+    left: 0;
+}
+
+
+svg#svg1 image {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+svg#svg2 {
+    width: 127px;
+    height: 128px;
+    top: 0;
+    left: 0;
+}
+
+
+svg#svg2 image {
+    width: 100%;
+    height: 100%;
+}
+
+
+svg#svg3{
+    width: 23px;
+    height: 24px;
+    top: 0;
+    left: 0;
+}
+
+
+svg#svg3 image {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100vh;
+	background: linear-gradient(135deg, #641ab1, #8d319e, #7563d0);
+	background-size: 400% 400%;
+	animation: gradientMove 15s ease infinite;
+  }
+
+  @keyframes gradientMove {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+  }
