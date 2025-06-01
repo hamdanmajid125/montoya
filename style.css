@@ -29,7 +29,7 @@ Primary use:	Showcase Portfolio
 ---------------------------------------------------*/
 
 	html,body{
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Manrope', sans-serif;
 		font-weight: 400;
 		font-size:16px;
 		height:100%;
@@ -1689,7 +1689,7 @@ Primary use:	Showcase Portfolio
 	
 	#logo img {
 		display: block;
-		height: 50px;
+		height: 70px;
 		width: auto;
 		max-width:none;
 		-webkit-transition: opacity 0.15s ease-in-out 0s;
@@ -3915,4 +3915,30 @@ Primary use:	Showcase Portfolio
   line-height: 30px!important;
   text-transform: none!important;
   margin-top: 30px!important;
+}
+
+
+.overlay-custom::after{
+	content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000006b;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+span.text-uppercase {
+    text-transform: uppercase;
+}
+.svgs svg{
+	position: absolute;
+	z-index: 9;
+	top: 0;
+}
+
+svg#svg1 {
+
+    
 }
