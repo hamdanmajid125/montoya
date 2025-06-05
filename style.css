@@ -564,7 +564,7 @@ Primary use:	Showcase Portfolio
 	.primary-font-title {
 		font-family: 'Humingnite', sans-serif;
 		font-weight:500;
-		font-size: 6rem;
+		font-size: calc(1rem + 8vw);
 	}
 	
 	.big-title {
@@ -1499,9 +1499,9 @@ Primary use:	Showcase Portfolio
 		width: 100%;
 		height:100%;
 		position: fixed;
-		top: 0; 
+		top: 0;
 		bottom: 0;
-		background: #000;
+		background: #8d319e;
 		z-index : 1800;
 		text-align:center;
 	}
@@ -3614,8 +3614,8 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.big-title {
-		font-size: calc(1rem + 13vw);
-		line-height: calc(1rem + 12.5vw);
+		font-size: calc(1rem + 9vw);
+		line-height: calc(1rem + 14.5vw);
 	}
 	
 	.bigger {
@@ -4017,8 +4017,12 @@ body, #menu {
 	50% { background-position: 100% 50%; }
 	100% { background-position: 0% 50%; }
   }
-h1.hero-title.caption-timeline.primary-font-title.banner-head {
-    font-size: 12rem;
-	
+
+
+  .team-member .primary-font-title {
+    font-size: calc(1rem + 4vw);
 }
-  
+
+p.text-white {
+    color: white;
+}
