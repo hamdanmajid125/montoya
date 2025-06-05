@@ -562,14 +562,14 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.primary-font-title {
-		font-family: 'Neue Machina', sans-serif;
+		font-family: 'Humingnite', sans-serif;
 		font-weight:500;
-		font-size: 12rem;
+		font-size: 6rem;
 	}
 	
 	.big-title {
-		font-size: calc(1rem + 8vw);
-  		line-height: calc(1rem + 7.5vw);
+		font-size: calc(1rem + 5vw);
+		line-height: calc(1rem + 7.5vw);
 	}
 	
 	.fixed-title {
@@ -609,7 +609,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	h2{
-		font-size: calc(1rem + 3vw);
+		font-size: calc(1rem + 5vw);
 		line-height: calc(1rem + 3.5vw);
 	}
 	
@@ -864,7 +864,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.row_padding_top {
-		padding-top:9vw;
+		/* padding-top:9vw; */
 	}
 	
 	.row_padding_bottom {
@@ -2117,7 +2117,7 @@ Primary use:	Showcase Portfolio
 		}
 		
 		.fullscreen-menu .flexnav > li > a {
-			font-family: 'Neue Machina', sans-serif;
+			font-family: 'Humingnite', sans-serif;
 			font-weight: 500;
 			font-size: calc(1rem + 4vw);
 			line-height: calc(1rem + 7.5vw);
@@ -3338,7 +3338,7 @@ Primary use:	Showcase Portfolio
 	.flexnav > li > a {
 		font-size: calc(1rem + 12vw);
 		line-height: calc(1rem + 11.5vw);
-		font-family: 'Neue Machina', sans-serif;
+		font-family: 'Humingnite', sans-serif;
 		text-transform: lowercase;		
 	}
 	
@@ -4004,7 +4004,7 @@ svg#svg3 image {
     height: 100%;
 }
 
-body {
+body, #menu {
 	margin: 0;
 	height: 100vh;
 	background: linear-gradient(135deg, #641ab1, #8d319e, #7563d0);
@@ -4017,3 +4017,8 @@ body {
 	50% { background-position: 100% 50%; }
 	100% { background-position: 0% 50%; }
   }
+h1.hero-title.caption-timeline.primary-font-title.banner-head {
+    font-size: 12rem;
+	
+}
+  
