@@ -1818,7 +1818,8 @@ Team Members
 
 .light-content .team-member > div, .dark-section .team-member > div {
 	-webkit-text-fill-color: rgba(255,255,255,0.1);
-	background-image: linear-gradient(#fff, #fff);;
+	background-image: linear-gradient(#fff, #fff);
+	font-size: calc(1rem + 3.5vw);
 }
 
 .light-content .light-section .team-member > div {

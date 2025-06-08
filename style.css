@@ -568,8 +568,8 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.big-title {
-		font-size: calc(1rem + 8vw);
-  		line-height: calc(1rem + 7.5vw);
+		font-size: calc(1rem + 5vw);
+		line-height: calc(1rem + 7.5vw);
 	}
 	
 	.fixed-title {
@@ -2120,7 +2120,7 @@ Primary use:	Showcase Portfolio
 			font-family: 'Humingnite', sans-serif;
 			font-weight: 500;
 			font-size: calc(1rem + 4vw);
-			line-height: calc(1rem + 7.5vw);
+			line-height: calc(1rem + 8.5vw);
 			padding: 0 50px;
 			-webkit-transition: all .1s ease-in-out 0s;
 			transition: all .1s ease-in-out 0s;
