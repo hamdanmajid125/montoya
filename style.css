@@ -562,7 +562,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.primary-font-title {
-		font-family: 'Neue Machina', sans-serif;
+		font-family: 'Humingnite', sans-serif;
 		font-weight:500;
 		font-size: 12rem;
 	}
@@ -2117,7 +2117,7 @@ Primary use:	Showcase Portfolio
 		}
 		
 		.fullscreen-menu .flexnav > li > a {
-			font-family: 'Neue Machina', sans-serif;
+			font-family: 'Humingnite', sans-serif;
 			font-weight: 500;
 			font-size: calc(1rem + 4vw);
 			line-height: calc(1rem + 7.5vw);
@@ -3338,7 +3338,7 @@ Primary use:	Showcase Portfolio
 	.flexnav > li > a {
 		font-size: calc(1rem + 12vw);
 		line-height: calc(1rem + 11.5vw);
-		font-family: 'Neue Machina', sans-serif;
+		font-family: 'Humingnite', sans-serif;
 		text-transform: lowercase;		
 	}
 	
