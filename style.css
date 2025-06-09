@@ -3336,10 +3336,10 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.flexnav > li > a {
-		font-size: calc(1rem + 12vw);
+		font-size: calc(1rem + 6vw);
 		line-height: calc(1rem + 11.5vw);
 		font-family: 'Humingnite', sans-serif;
-		text-transform: lowercase;		
+		text-transform: uppercase;
 	}
 	
 	.flexnav > li > .touch-button {
@@ -3657,8 +3657,9 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.flexnav > li > a {
-		font-size: calc(1rem + 13vw);
+		font-size: calc(1rem + 6vw);
 		line-height: calc(1rem + 12.5vw);
+		text-transform: uppercase;
 	}
 	
 	.flexnav > li > .touch-button {
@@ -3819,8 +3820,8 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.big-title {
-		font-size: calc(1rem + 14vw);
-		line-height: calc(1rem + 13.5vw);
+		font-size: calc(1rem + 12vw);
+		line-height: calc(1rem + 19.5vw);
 	}
 	
 	.percentage-wrapper {
@@ -3840,8 +3841,9 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.flexnav > li > a {
-		font-size: calc(1rem + 14vw);
-		line-height: calc(1rem + 13.5vw);
+		font-size: calc(1rem + 6vw);
+		line-height: calc(1rem + 14.5vw);
+		text-transform: uppercase;
 	}
 	
 	.flexnav > li > .touch-button {
