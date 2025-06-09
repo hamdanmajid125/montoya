@@ -3154,7 +3154,7 @@ List Rotator
 	width: 100%;
 	height: auto;
 	box-sizing:border-box;
-	padding-top:20vh;
+	padding-top: 20vh;
 	padding-bottom:15vh;
 	margin: 0;
 }
@@ -3802,7 +3802,7 @@ span.has-hover-image.vertical .hover-reveal {
 }
 
 .list-rotator li {
-	font-size: calc(1rem + 5vw);
+	font-size: calc(1rem + 3vw);
 	line-height: calc(1rem + 13.5vw);
 }
 
